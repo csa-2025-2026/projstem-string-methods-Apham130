@@ -29,8 +29,6 @@ public class Main
   public static String removeStr(String s1, String s2)
   {
     int x = s1.lastIndexOf(s2);
-    String output = null;
-    output = (s1.substring(0,x) + s1.substring (x+s2.length()));
-    return output;
+    return (s1.substring(0,x) + s1.substring (x+s2.length()));
   }
 }
